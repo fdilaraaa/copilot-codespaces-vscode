@@ -1,0 +1,10 @@
+import math
+
+def hipotenus_bul(a, b):
+    c = math.sqrt(a**2 + b**2)
+    return c
+
+kenar1 = 5
+kenar2 = 12
+hipotenus = hipotenus_bul(kenar1, kenar2)
+print(f"Hipotenüs: {hipotenus}")
